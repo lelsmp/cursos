@@ -1,0 +1,36 @@
+
+<ion-content padding class="bg-style">
+
+  <h1 class="text-center">Realizar Cadastro</h1>
+
+
+  <ion-card>
+
+  <ion-avatar >
+    <ion-icon name="school"></ion-icon>
+  </ion-avatar>
+
+  <ion-list inset class="input-login">
+
+    <ion-item > 
+      <ion-label >Usuário:</ion-label>
+    <ion-input  type="text" [(ngModel)]="username"></ion-input>
+    </ion-item>
+
+    <ion-item > 
+      <ion-label >E-mail:</ion-label>
+    <ion-input  type="text" [(ngModel)]="emais"></ion-input>
+    </ion-item>
+  
+    <ion-item >
+      <ion-label >Senha:</ion-label>
+      <ion-input  type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+    
+  </ion-list>
+
+  <button ion-button block  (click)="login()">Entrar</button>
+
+  </ion-card>
+
+</ion-content>

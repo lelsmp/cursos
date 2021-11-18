@@ -1,0 +1,68 @@
+page-cadastro {
+
+    .bg-style {
+        background:#fff;
+    }
+
+    font-family: Ubuntu!important;
+    .text-center{
+        text-align: center;
+        position: relative;
+        top: 7%;
+    }
+    
+    align-content: center;
+
+
+
+
+        
+    
+
+    ion-card{
+        background-image: none!important;
+        box-shadow: none!important;
+        width: inherit;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 10%;
+        background:#fff!important;
+
+        ion-icon{
+            /**border-radius: 10em!important;**/
+            font-size: 7em;
+            color: #CFC9FF!important;
+            position: relative;
+            left: 35%;
+            
+        }
+
+        .link-login{
+            color: #000!important;
+            position: relative;
+            left: 28%;
+            text-decoration: underline;
+        }
+    }
+
+    
+
+    ion-item{
+
+        background:#fff!important;
+    }
+
+    input{
+        margin: 0!important;
+        background: #fff!important;
+    }
+
+    button {
+        background: #CFC9FF!important;
+    }
+    
+    .item-input .label-md{
+        color: #000!important;
+    }
+}
